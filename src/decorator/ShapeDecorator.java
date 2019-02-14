@@ -1,6 +1,6 @@
 package decorator;
 
-public abstract class ShapeDecorator {
+public abstract class ShapeDecorator implements Shape {
 	protected Shape decoratedShape;
 	
 	public ShapeDecorator (Shape decoratedShape){
