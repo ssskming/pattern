@@ -1,0 +1,8 @@
+package frontController;
+
+//¥¥Ω® ”Õº°£
+public class HomeView {
+	public void show() {
+		System.out.println("Displaying Home Page");
+	}
+}
